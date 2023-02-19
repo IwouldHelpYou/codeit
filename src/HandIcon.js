@@ -7,7 +7,6 @@ rock,scissor,paper
 ]
 
 function HandIcon({value}) {
-
     const src = IMAGES[value];
 
     return <img src={src} alt={value} ></img>;
